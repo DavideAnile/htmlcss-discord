@@ -163,7 +163,7 @@ header{
 
 .buttons #download-mac:hover{
     background-color: gray;
-    color: black;
+    color: white;
 }
 #browser-open{
     display: inline-block;
@@ -281,6 +281,11 @@ p{
 .last-section #download-mac{
     color: white;
     background-color: #7289da ;
+}
+
+.last-section #download-mac:hover{
+    background-color: gray;
+    color: black;
 }
 
 #last-sect-credits{
