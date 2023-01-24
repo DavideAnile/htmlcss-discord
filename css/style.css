@@ -4,6 +4,16 @@
     margin-right: auto;
 }
 
+#wave-reverse{
+   opacity: 4%;
+   transform: rotate(180deg);
+}
+  
+#wave{
+   opacity: 4%;
+   margin-bottom: -4px;
+}
+
  /* nav-bar */
 
  nav{
@@ -11,16 +21,6 @@
  }
 
 
- #wave-reverse{
-    opacity: 4%;
-    transform: rotate(180deg);
-}
-   
- #wave{
-    opacity: 4%;
-    margin-bottom: -4px;
- }
- 
  
 
 #nav-inner{
@@ -47,6 +47,11 @@
     
 }
 
+#login .small-btn:hover{
+    background-color: gray;
+    color: white;
+}
+
 #links ul{
     display: flex;
     flex-direction: row;
@@ -64,9 +69,18 @@
     align-items: center;
     max-width: 100px;
     min-height: 40px;
+
+
+    
     
 }
 
+#links ul li a:hover{
+    transition-duration: 0.4s;
+    
+    color: black;
+    
+}
 #links li a{
     color: white;
     text-decoration: none;
@@ -86,6 +100,8 @@ border: none;
 border-radius: 30px;
 
 }
+
+
 
 /* /nav-bar */
 
@@ -145,6 +161,10 @@ header{
 
 }
 
+.buttons #download-mac:hover{
+    background-color: gray;
+    color: black;
+}
 #browser-open{
     display: inline-block;
     width: 200px;
@@ -154,6 +174,11 @@ header{
     border-radius: 30px;
     color: white;
     background-color: #23272a;
+}
+
+.buttons #browser-open:hover{
+    background-color: white;
+    color: black;
 }
 
 /* /jambo */
@@ -280,6 +305,8 @@ p{
     background-color: #23272a ;
 }
  
+
+
 .credits{
     color: white;
 }
@@ -340,6 +367,11 @@ p{
 .credits-last-section .small-btn{
     color: white;
     background-color: #7289da;
+}
+
+.credits-last-section .small-btn:hover{
+    background-color: white;
+    color: black;
 }
 
 /* /footer */
