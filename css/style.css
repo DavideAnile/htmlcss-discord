@@ -9,11 +9,25 @@
  nav{
     background-color: #255ee9;
  }
+
+
+ #wave-reverse{
+    opacity: 4%;
+    transform: rotate(180deg);
+}
+   
+ #wave{
+    opacity: 4%;
+    margin-bottom: -4px;
+ }
+ 
+ 
+
 #nav-inner{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 80px;
         
 }
         
@@ -108,10 +122,10 @@ header{
     min-width: 700px;
     min-height: 100px;
    margin: 20px 0;
-   
-   
-   
 }
+   
+   
+   
 
 #article-text p{
     font-size: 1.2em;
@@ -171,16 +185,10 @@ header{
 }
     
 p{
-    ;
     font-size: 20px;
-    
     padding: 20px 0;
 }
-    
-    
-    
-    
-    
+
 /* /first-section */
 
 /* second section */
@@ -246,6 +254,7 @@ p{
 }
 
 .last-section #download-mac{
+    color: white;
     background-color: #7289da ;
 }
 
@@ -253,32 +262,31 @@ p{
     background-image: url('../img/stars.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 600px;
     text-align: center;
-    
-    
+    width: 500px;
     
 }
-
+    
 #last-sect-credits h2{
-    
-    
     margin: 20px 0;
 }
-
-
+    
+    
 /* /Last-section */
-
-
+    
 /* footer */
 
 #black-section{
     background-color: #23272a ;
 }
-    
+ 
 .credits{
-   height: 600px; 
-   background-color: lightgray;
+    color: white;
+}
+.credits-first-section{
+    
+   min-height: 600px; 
+   
 }
 
 .credits ul{
@@ -289,40 +297,73 @@ p{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center;
-    height: 400px;
+    min-height: 400px;
     border-bottom: 2px solid blue;
     
 }
 
+.credits-first-section h2, .credits-first-section li:first-child{
+    padding-top: 40px;
+    font-weight: bold;
+    color: #4a78d3;
+}
 
 #contacts{
-    width: 250px;
-    height: 150px;
-    background-color: lightskyblue;
-
+    max-width: 200px;
+    
+    
 }
 
-#products, #companies, #norms{
-    height: 250px;
-    width: 110px;
-    background-color: lightblue;
+#lang{
+    margin: 10px 0;
+}
+#flag{
+    height: 15px;
+    background-size: 20px;
 }
 
-#resources{
-    width: 120px;
-    height: 400px;
-    background-color: lightblue;
+
+.credits ul{
+    line-height: 30px;
 }
 
 .credits-last-section{
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 200px;
 }
     
+
+
+.credits-last-section .small-btn{
+    color: white;
+    background-color: #7289da;
+}
+
+/* /footer */
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+    
     
  
+
+    
+    
+    
+    
+    
+    
+    
 
