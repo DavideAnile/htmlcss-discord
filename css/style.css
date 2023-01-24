@@ -7,7 +7,7 @@
  /* nav-bar */
 
  nav{
-    background-color: #213e88;
+    background-color: #255ee9;
  }
 #nav-inner{
         display: flex;
@@ -171,7 +171,9 @@ header{
 }
     
 p{
-    font-weight: 400;
+    ;
+    font-size: 20px;
+    
     padding: 20px 0;
 }
     
@@ -223,37 +225,56 @@ p{
 .last-section{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 1400px;
-    background-color: lightgreen;
+    min-height: 1000px;
+    
 }
 
 #last-sect-title, #last-sect-text{
-    height: 50px;
-    width: 1000px;
-    background-color: lightcoral;
+    
+    max-width: 1000px;
+    text-align: center;
+    
 }
 
 #last-sect-img{
-    width: 1000px;
-    height: 550px;
-    background-color: lightcoral;
+    max-width: 1000px;
+    min-height: 550px;
+    
 
+}
+
+.last-section #download-mac{
+    background-color: #7289da ;
 }
 
 #last-sect-credits{
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 600px;
-    height: 80px;
-    background-color: lightcoral;
-
+    text-align: center;
+    
+    
+    
 }
 
-/* /Laset-section */
+#last-sect-credits h2{
+    
+    
+    margin: 20px 0;
+}
+
+
+/* /Last-section */
 
 
 /* footer */
 
+#black-section{
+    background-color: #23272a ;
+}
     
 .credits{
    height: 600px; 
@@ -297,7 +318,7 @@ p{
 .credits-last-section{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 200px;
 }
